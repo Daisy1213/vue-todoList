@@ -27,9 +27,5 @@ module.exports = {
     'wgenerator-star-spacing': 0,
     // allow debugger during development
     'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
-    'indent': [
-      4,
-      4
-    ],
   }
 }
